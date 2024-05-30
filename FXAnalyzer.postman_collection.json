@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "7765da21-a11c-4e97-a428-f4f49f3c7bc9",
+		"name": "FXAnalyzer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3867995"
+	},
+	"item": [
+		{
+			"name": "Save Deal",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"fromCurrencyCode\": \"USD\",\r\n  \"toCurrencyCode\": \"EUR\",\r\n  \"timestamp\": \"2024-05-30T12:30:00\",\r\n  \"amount\": 1500.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/fx/deal/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fx",
+						"deal",
+						"save"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
