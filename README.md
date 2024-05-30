@@ -9,7 +9,7 @@ The Clustered Data Warehouse is designed to accept FX deal details and persist t
 ###Docker Compose: Sets up the development environment.
 
 ##Getting Started
-Clone the GitHub repository: *********
+Clone the GitHub repository: https://github.com/nisreen93/nisreen-ps-task
 Ensure you have Docker and Docker Compose installed.
 Set up environment variables (if needed) for database connection details.
 
